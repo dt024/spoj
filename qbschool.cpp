@@ -39,7 +39,7 @@ void dijkstra()
 }
 int main()
 {
-            long long k,u,v,l;
+    long long k,u,v,l;
     cin>>n>>m;
     adj.assign(n+1,vii());
     cnt[1]=1;
